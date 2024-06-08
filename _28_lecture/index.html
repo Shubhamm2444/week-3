@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="temperature-toggle">
+      <button id="unit-button">°C</button>
+    </div>
+    <div class="weather-info">
+      <h1>Today's Weather</h1>
+      <p class="location">City, Country</p>
+      <p class="temperature">27 °C</p>
+      <p class="description">Sunny</p>
+    </div>
+    <div class="forecast">
+      <h2>Next 2 Days Forecast</h2>
+      <ul>
+        <li>
+          <span class="date">Jan 2nd</span>
+          <span class="icon">☀️</span> <span class="temp">28 °C</span>
+        </li>
+        <li>
+          <span class="date">Jan 3rd</span>
+          <span class="icon">☁️</span> <span class="temp">26 °C</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>  </body>
+</html>
+
+
+
+# Explanation:
+1:The code defines a basic HTML structure for the weather app.
+2:The <DOCTYPE html> declaration specifies the document type as HTML.
+3:The <html> element is the root element of the document.
+4:Within the <head> section, we define the character encoding (<meta charset="UTF-8">), viewport behavior for mobile devices (<meta name="viewport" content="width=device-width, initial-scale=1.0">), the title of the page (<title>Weather App</title>), and a link to the CSS stylesheet (<link rel="stylesheet" href="style.css">).
+5:The <body> element contains the visible content of the web page.
+6:The main container is defined using a <div> element with the class container.
+7:Inside the container, we have sections for the temperature unit toggle, today's weather information, and the next two days' forecast.
+8:Each section is further divided into elements like headings (<h1>, <h2>), paragraphs (<p>), and unordered lists (<ul> with list items <li>) for better organization.
+9:Finally, we include the JavaScript file (<script src="script.js"></script>) that will handle interactivity like temperature unit conversion.
