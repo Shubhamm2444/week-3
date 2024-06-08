@@ -1,0 +1,6 @@
+Two-Way Binding in React MERN Stack Todo App
+While React is known for its one-way data flow, there's a pattern called "controlled components" that simulates two-way binding behavior. Here's how it applies to your MERN stack todo application:
+
+Concept:
+In controlled components, the component's state dictates the value of the input field.
+Any changes to the input field are reflected back to the component's state using event handlers (e.g., onChange).
