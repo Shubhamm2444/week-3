@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.temperature-toggle button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #999;
+}
+
+.temperature {
+  font-size: 1.5em;
+}
+
+.description {
+  font-size: 1em;
+}
+
+.forecast {
+  margin-top: 30px;
+}
+
+.forecast h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.forecast ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forecast li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.icon {
+  font-size: 1.5em;
+}
+
+.temp {
+  font-size: 1em;
+}
+
+
+1:Here's a breakdown of each section:
+Body:
+. Sets the overall styles for the web page:
+. font-family: sans-serif;: Uses a sans-serif font for the body text.
+. margin: 0;: Removes default margins from the body.
+. padding: 0;: Removes default padding from the body.
+. background-image: url("background.jpg");: Sets a background image for the entire page. Replace "background.jpg" with the actual path to your image.
+. background-size: cover;: Makes the background image cover the entire viewport area.
+. background-repeat: no-repeat;: Prevents the background image from repeating.
+. background-position: center;: Centers the background image horizontally and vertically.
+. height: 100vh;: Sets the body height to 100% of the viewport height.
+
+Container:
+. Defines styles for the main container element:
+. max-width: 600px;: Sets a maximum width for the container.
+. margin: 0 auto;: Centers the container horizontally on the page.
+. padding: 20px;: Adds padding inside the container.
+. :5px;: Adds rounded corners to the container.
+. background-color: rgba(255, 255, 255, 0.8);: Sets a semi-transparent white background for the container.
+. box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);: Adds a subtle shadow effect to the container.
+. : flex;: Sets the container to use flexbox layout for positioning its child elements.
+. flex-direction: column;: Arranges child elements vertically within the container.
+. align-items: center;: Aligns the content of the container vertically to the center.
+
+Other Styles:
+The code continues to define styles for various other elements within the weather app, including:
+. temperature-toggle: Styles the section containing the temperature unit toggle button.
+. temperature-toggle button: Styles the button itself.
+. weather-info: Styles the section containing the weather information (location, temperature, description).
+h1, .location, .temperature, .description: Styles for headings, location text, temperature value, and description text, respectively.
+. forecast: Styles the section containing the forecast information.
+. forecast h2: Styles the heading for the forecast section.
+. forecast ul, .forecast li: Styles for the forecast list and individual forecast items.
+. date, .icon, .temp: Styles for the date, weather icon, and temperature in the forecast items.
+
+* These styles provide a basic layout and visual design for the weather app. You can customize them further to match your preferences or brand identity.
